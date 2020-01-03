@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-react-hooks",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "src/assets/template/**"
+    ]
+  },
+  "rules": {
+    "jsx-no-multiline-js": false,
+    "member-ordering": [false],
+    "no-empty": false,
+    "ordered-imports": false,
+    "interface-name": false,
+    "jsx-boolean-value": false,
+    "jsx-no-lambda": false,
+    "object-literal-sort-keys": false,
+    "jsx-wrap-multiline": false,
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
+    "no-console": false
+  }
+}
