@@ -19,7 +19,7 @@ const Questions = ({ question, options, selected }: Props) => {
       <Box>
         <Grid container spacing={3}>
           {answer.map((text: string, index: number) => (
-            <Grid item>
+            <Grid item xs={12} md="auto">
               <Button
                 style={{ textTransform: "none" }}
                 key={index}
