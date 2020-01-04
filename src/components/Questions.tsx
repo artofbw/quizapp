@@ -12,7 +12,7 @@ const Questions = ({ question, options, selected }: Props) => {
   return (
     <Box mb={10}>
       <Box mb={5}>
-        <Typography variant="h5" noWrap>
+        <Typography variant="h5">
           {question}
         </Typography>
       </Box>
